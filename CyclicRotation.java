@@ -12,18 +12,21 @@
 import static java.util.Collections.reverse;
 
 public class CyclicRotation {
-    public int[] solution(int[] A, int K) {
-        if (A == null || A.length == 0 || K == 0 || A.length == 1){
-            return A;
-        } else if (K < 0 || K > 100){
-            throw new IllegalArgumentException("K must be an integer between 0 and 100");
-        } else {
-            K = K % A.length;
-            if (K < 0){
-                K += A.length;
-            }
-        }
-        return A;
-    }
+//    public static void main(String[] args) {
+//        System.out.println(CyclicRotation);
+//    }
+//    public int[] solution(int[] A, int K) {
+//        if (A == null || A.length == 0 || K == 0 || A.length == 1){
+//            return A;
+//        } else if (K < 0 || K > 100){
+//            throw new IllegalArgumentException("K must be an integer between 0 and 100");
+//        } else {
+//            K = K % A.length;
+//            if (K < 0){
+//                K += A.length;
+//            }
+//        }
+//        return A;
+//    }
 
 }
