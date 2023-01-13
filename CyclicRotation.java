@@ -12,6 +12,10 @@
 import static java.util.Collections.reverse;
 
 public class CyclicRotation {
+    public int[] solution(int[] A, int K){
+        
+    }
+    //ORIGINAL SOLUTION TO PROBLEM
 //    public static void main(String[] args) {
 //        System.out.println(CyclicRotation);
 //    }
@@ -28,5 +32,4 @@ public class CyclicRotation {
 //        }
 //        return A;
 //    }
-
 }
